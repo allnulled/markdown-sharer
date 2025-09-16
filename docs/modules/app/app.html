@@ -1,8 +1,8 @@
 <div class="app app_component position_relative">
     <div class="panel_principal">
         <div class="panel_de_botones">
-            <div class="flex_row pad_top_1 pad_right_1">
-                <div class="flex_100"></div>
+            <div class="flex_row centered pad_top_1 pad_right_1">
+                <div class="flex_100 pad_left_1" style="color: white;">Mermaid sharer</div>
                 <div class="flex_1 pad_left_1">
                     <button class="" v-on:click="exportAsLink">Exportar</button>
                 </div>
@@ -25,10 +25,10 @@
             </div>
         </div>
         <div class="panel_de_visualizacion"
-            v-if="selectedPanel === 'visualizacion'">
+            v-show="selectedPanel === 'visualizacion'">
             <div class="marco_de_visualizacion_container">
                 <div class="marco_de_visualizacion">
-                    <lsw-markdown-viewer :source="source" />
+                    <div ref="mermaidRenderer" id="mermaid_renderer" />
                 </div>
             </div>
         </div>
