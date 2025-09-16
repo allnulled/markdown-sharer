@@ -6,4 +6,4 @@ Editor de markdown para compartición rápida.
 
 Accede a la aplicación aquí:
 
-- [https://allnulled.github.com/markdown-sharer/index.html](https://allnulled.github.com/markdown-sharer/index.html)
+- [https://allnulled.github.io/markdown-sharer/index.html](https://allnulled.github.io/markdown-sharer/index.html)
