@@ -15,33 +15,29 @@
       return {
         isMounted: false,
         selectedPanel: "edicion", // also: "edicion", "visualizacion"
-        source: "graph TD;\n\nA --> B;\nB --> C;\nC --> A;",
+        source: "Texto **de ejemplo**.",
         compilated: "",
       };
     },
     methods: {
-      async selectPanel(panel) {
+      selectPanel(panel) {
         this.$trace("App.methods.selectPanel");
-        if(panel === "visualizacion") {
-          await this.compile();
-        }
         this.selectedPanel = panel;
       },
-      async compile() {
+      compile() {
         this.$trace("App.methods.compile");
-        const output = await mermaid.render(LswRandomizer.getRandomString(10), this.source);
-        this.$refs.mermaidRenderer.innerHTML = output.svg;
+        this.compilated = LswMarkdown.global.parse(this.source);
       },
-      async visualize() {
+      visualize() {
         this.$trace("App.methods.visualize");
-        return await this.selectPanel("visualizacion");
+        this.selectPanel("visualizacion");
       },
       exportAsLink() {
         this.$trace("App.methods.exportAsLink");
         console.log("exporting as link");
         const parameters = new URLSearchParams({ source: this.source });
         const url = new URL(window.location.href);
-        const productLink = `${url.protocol}//${url.hostname}:${url.port}${url.pathname}?${parameters.toString()}`;
+        const productLink = `${url.protocol}//${url.hostname}${url.pathname}?${parameters.toString()}`;
         LswUtils.copyToClipboard(productLink);
         this.$lsw.toasts.send({
           title: "Link exportado al portapapeles",
@@ -51,7 +47,6 @@
     },
     async mounted() {
       console.log("[💛] Application mounted.");
-      await mermaid.mermaidAPI.globalReset();
       this.isMounted = true;
       if (isFirstTime) {
         Vue.prototype.$app = this;

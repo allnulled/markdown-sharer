@@ -2,7 +2,7 @@
     <div class="panel_principal">
         <div class="panel_de_botones">
             <div class="flex_row centered pad_top_1 pad_right_1">
-                <div class="flex_100 pad_left_1" style="color: white;">Mermaid sharer</div>
+                <div class="flex_100 pad_left_1">Markdown sharer</div>
                 <div class="flex_1 pad_left_1">
                     <button class="" v-on:click="exportAsLink">Exportar</button>
                 </div>
@@ -25,10 +25,10 @@
             </div>
         </div>
         <div class="panel_de_visualizacion"
-            v-show="selectedPanel === 'visualizacion'">
+            v-if="selectedPanel === 'visualizacion'">
             <div class="marco_de_visualizacion_container">
                 <div class="marco_de_visualizacion">
-                    <div ref="mermaidRenderer" id="mermaid_renderer" />
+                    <lsw-markdown-viewer :source="source" />
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-# Markdown-sharer
+# markdown-sharer
 
 Editor de markdown para compartición rápida.
 

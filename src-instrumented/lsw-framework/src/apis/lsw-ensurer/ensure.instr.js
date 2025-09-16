@@ -1,10 +1,10 @@
-function cov_1xcc0qslek() {
-    var path = "/home/carlos/Escritorio/mermaid-sharer/src/lsw-framework/src/apis/lsw-ensurer/ensure.js";
-    var hash = "445700338248325e7fcee5b37a2b8d7e73f5fb0a";
+function cov_1b4cy5bg68() {
+    var path = "/home/carlos/Escritorio/markdown-sharer/src/lsw-framework/src/apis/lsw-ensurer/ensure.js";
+    var hash = "460d2ae4863f4d2e6539836657a51b3489625963";
     var global = new Function("return this")();
     var gcv = "__coverage__";
     var coverageData = {
-        path: "/home/carlos/Escritorio/mermaid-sharer/src/lsw-framework/src/apis/lsw-ensurer/ensure.js",
+        path: "/home/carlos/Escritorio/markdown-sharer/src/lsw-framework/src/apis/lsw-ensurer/ensure.js",
         statementMap: {
             "0": {
                 start: {
@@ -7736,7 +7736,7 @@ function cov_1xcc0qslek() {
             "65": [0, 0]
         },
         _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-        hash: "445700338248325e7fcee5b37a2b8d7e73f5fb0a"
+        hash: "460d2ae4863f4d2e6539836657a51b3489625963"
     };
     var coverage = global[gcv] || (global[gcv] = {});
     if (!coverage[path] || coverage[path].hash !== hash) {
@@ -7744,43 +7744,43 @@ function cov_1xcc0qslek() {
     }
     var actualCoverage = coverage[path];
     { // @ts-ignore
-        cov_1xcc0qslek = function() {
+        cov_1b4cy5bg68 = function() {
             return actualCoverage;
         };
     }
     return actualCoverage;
 }
-cov_1xcc0qslek();
-cov_1xcc0qslek().s[0]++;
+cov_1b4cy5bg68();
+cov_1b4cy5bg68().s[0]++;
 (function(factory) {
-    cov_1xcc0qslek().f[0]++;
-    const mod = (cov_1xcc0qslek().s[1]++, factory());
-    cov_1xcc0qslek().s[2]++;
+    cov_1b4cy5bg68().f[0]++;
+    const mod = (cov_1b4cy5bg68().s[1]++, factory());
+    cov_1b4cy5bg68().s[2]++;
     if (typeof window !== 'undefined') {
-        cov_1xcc0qslek().b[0][0]++;
-        cov_1xcc0qslek().s[3]++;
+        cov_1b4cy5bg68().b[0][0]++;
+        cov_1b4cy5bg68().s[3]++;
         window["LswEnsurer"] = mod;
     } else {
-        cov_1xcc0qslek().b[0][1]++;
+        cov_1b4cy5bg68().b[0][1]++;
     }
-    cov_1xcc0qslek().s[4]++;
+    cov_1b4cy5bg68().s[4]++;
     if (typeof global !== 'undefined') {
-        cov_1xcc0qslek().b[1][0]++;
-        cov_1xcc0qslek().s[5]++;
+        cov_1b4cy5bg68().b[1][0]++;
+        cov_1b4cy5bg68().s[5]++;
         global["LswEnsurer"] = mod;
     } else {
-        cov_1xcc0qslek().b[1][1]++;
+        cov_1b4cy5bg68().b[1][1]++;
     }
-    cov_1xcc0qslek().s[6]++;
+    cov_1b4cy5bg68().s[6]++;
     if (typeof module !== 'undefined') {
-        cov_1xcc0qslek().b[2][0]++;
-        cov_1xcc0qslek().s[7]++;
+        cov_1b4cy5bg68().b[2][0]++;
+        cov_1b4cy5bg68().s[7]++;
         module.exports = mod;
     } else {
-        cov_1xcc0qslek().b[2][1]++;
+        cov_1b4cy5bg68().b[2][1]++;
     }
 })(function() {
-    cov_1xcc0qslek().f[1]++;
+    cov_1b4cy5bg68().f[1]++;
     /**
      * 
      * 
@@ -7794,501 +7794,501 @@ cov_1xcc0qslek().s[0]++;
      */ // @code.start: LswEnsurer class | @section: Lsw Ensurer API » LswEnsurer class
     class AssertionError extends Error {
         constructor(...args) {
-            cov_1xcc0qslek().f[2]++;
-            cov_1xcc0qslek().s[8]++;
+            cov_1b4cy5bg68().f[2]++;
+            cov_1b4cy5bg68().s[8]++;
             super(...args);
-            cov_1xcc0qslek().s[9]++;
+            cov_1b4cy5bg68().s[9]++;
             this.name = "AssertionError";
         }
     }
     class Ensurement {
         static create(...args) {
-            cov_1xcc0qslek().f[3]++;
-            cov_1xcc0qslek().s[10]++;
+            cov_1b4cy5bg68().f[3]++;
+            cov_1b4cy5bg68().s[10]++;
             return new this(...args);
         }
-        constructor(source, asLabeledObject = (cov_1xcc0qslek().b[3][0]++, 0)) {
-            cov_1xcc0qslek().f[4]++;
-            cov_1xcc0qslek().s[11]++;
+        constructor(source, asLabeledObject = (cov_1b4cy5bg68().b[3][0]++, 0)) {
+            cov_1b4cy5bg68().f[4]++;
+            cov_1b4cy5bg68().s[11]++;
             Resolve_subject: {
-                cov_1xcc0qslek().s[12]++;
-                if ((cov_1xcc0qslek().b[5][0]++, asLabeledObject === 1) && (cov_1xcc0qslek().b[5][1]++, typeof source === "object")) {
-                    cov_1xcc0qslek().b[4][0]++;
-                    const sourceKeys = (cov_1xcc0qslek().s[13]++, Object.keys(source));
-                    cov_1xcc0qslek().s[14]++;
+                cov_1b4cy5bg68().s[12]++;
+                if ((cov_1b4cy5bg68().b[5][0]++, asLabeledObject === 1) && (cov_1b4cy5bg68().b[5][1]++, typeof source === "object")) {
+                    cov_1b4cy5bg68().b[4][0]++;
+                    const sourceKeys = (cov_1b4cy5bg68().s[13]++, Object.keys(source));
+                    cov_1b4cy5bg68().s[14]++;
                     if (sourceKeys.length !== 1) {
-                        cov_1xcc0qslek().b[6][0]++;
-                        cov_1xcc0qslek().s[15]++;
+                        cov_1b4cy5bg68().b[6][0]++;
+                        cov_1b4cy5bg68().s[15]++;
                         throw new Error(`The first parameter of $ensure or $check {when $2 is literally 1} must have 1 property (not ${sourceKeys.length}) on «Ensurement.constructor»`);
                     } else {
-                        cov_1xcc0qslek().b[6][1]++;
+                        cov_1b4cy5bg68().b[6][1]++;
                     }
-                    cov_1xcc0qslek().s[16]++;
+                    cov_1b4cy5bg68().s[16]++;
                     this.$subjectId = sourceKeys[0];
-                    cov_1xcc0qslek().s[17]++;
+                    cov_1b4cy5bg68().s[17]++;
                     this.$subject = source[this.$subjectId];
                 } else {
-                    cov_1xcc0qslek().b[4][1]++;
-                    cov_1xcc0qslek().s[18]++;
+                    cov_1b4cy5bg68().b[4][1]++;
+                    cov_1b4cy5bg68().s[18]++;
                     if (typeof asLabeledObject === "string") {
-                        cov_1xcc0qslek().b[7][0]++;
-                        cov_1xcc0qslek().s[19]++;
+                        cov_1b4cy5bg68().b[7][0]++;
+                        cov_1b4cy5bg68().s[19]++;
                         this.$subjectId = asLabeledObject;
-                        cov_1xcc0qslek().s[20]++;
+                        cov_1b4cy5bg68().s[20]++;
                         this.$subject = source;
                     } else {
-                        cov_1xcc0qslek().b[7][1]++;
-                        cov_1xcc0qslek().s[21]++;
+                        cov_1b4cy5bg68().b[7][1]++;
+                        cov_1b4cy5bg68().s[21]++;
                         this.$subjectId = "@";
-                        cov_1xcc0qslek().s[22]++;
+                        cov_1b4cy5bg68().s[22]++;
                         this.$subject = source;
                     }
                 }
             }
-            cov_1xcc0qslek().s[23]++;
+            cov_1b4cy5bg68().s[23]++;
             this.$operation = undefined;
-            cov_1xcc0qslek().s[24]++;
+            cov_1b4cy5bg68().s[24]++;
             this.$objectation = undefined;
-            cov_1xcc0qslek().s[25]++;
+            cov_1b4cy5bg68().s[25]++;
             this.asBoolean = false;
         }
         type(value) {
-            cov_1xcc0qslek().f[5]++;
-            cov_1xcc0qslek().s[26]++;
+            cov_1b4cy5bg68().f[5]++;
+            cov_1b4cy5bg68().s[26]++;
             this.$operation = "is of type";
-            cov_1xcc0qslek().s[27]++;
+            cov_1b4cy5bg68().s[27]++;
             this.$objectation = value;
-            cov_1xcc0qslek().s[28]++;
+            cov_1b4cy5bg68().s[28]++;
             if (typeof value === "string") {
-                cov_1xcc0qslek().b[8][0]++;
-                cov_1xcc0qslek().s[29]++;
+                cov_1b4cy5bg68().b[8][0]++;
+                cov_1b4cy5bg68().s[29]++;
                 if (typeof this.$subject !== value) {
-                    cov_1xcc0qslek().b[9][0]++;
-                    cov_1xcc0qslek().s[30]++;
+                    cov_1b4cy5bg68().b[9][0]++;
+                    cov_1b4cy5bg68().s[30]++;
                     return this.$asFailed();
                 } else {
-                    cov_1xcc0qslek().b[9][1]++;
+                    cov_1b4cy5bg68().b[9][1]++;
                 }
             } else {
-                cov_1xcc0qslek().b[8][1]++;
-                cov_1xcc0qslek().s[31]++;
+                cov_1b4cy5bg68().b[8][1]++;
+                cov_1b4cy5bg68().s[31]++;
                 if (Array.isArray(value)) {
-                    cov_1xcc0qslek().b[10][0]++;
-                    cov_1xcc0qslek().s[32]++;
+                    cov_1b4cy5bg68().b[10][0]++;
+                    cov_1b4cy5bg68().s[32]++;
                     if (value.indexOf(typeof this.$subject) === -1) {
-                        cov_1xcc0qslek().b[11][0]++;
-                        cov_1xcc0qslek().s[33]++;
+                        cov_1b4cy5bg68().b[11][0]++;
+                        cov_1b4cy5bg68().s[33]++;
                         return this.$asFailed();
                     } else {
-                        cov_1xcc0qslek().b[11][1]++;
+                        cov_1b4cy5bg68().b[11][1]++;
                     }
                 } else {
-                    cov_1xcc0qslek().b[10][1]++;
-                    cov_1xcc0qslek().s[34]++;
+                    cov_1b4cy5bg68().b[10][1]++;
+                    cov_1b4cy5bg68().s[34]++;
                     throw new Error(`Bad parameter on «$ensure(...).type(?)» (${typeof value} not admitted)`);
                 }
             }
-            cov_1xcc0qslek().s[35]++;
+            cov_1b4cy5bg68().s[35]++;
             return this.$asResolved();
         }
         notType(value) {
-            cov_1xcc0qslek().f[6]++;
-            cov_1xcc0qslek().s[36]++;
+            cov_1b4cy5bg68().f[6]++;
+            cov_1b4cy5bg68().s[36]++;
             this.$operation = "is not of type";
-            cov_1xcc0qslek().s[37]++;
+            cov_1b4cy5bg68().s[37]++;
             this.$objectation = value;
-            cov_1xcc0qslek().s[38]++;
+            cov_1b4cy5bg68().s[38]++;
             if (typeof this.$subject === value) {
-                cov_1xcc0qslek().b[12][0]++;
-                cov_1xcc0qslek().s[39]++;
+                cov_1b4cy5bg68().b[12][0]++;
+                cov_1b4cy5bg68().s[39]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[12][1]++;
+                cov_1b4cy5bg68().b[12][1]++;
             }
-            cov_1xcc0qslek().s[40]++;
+            cov_1b4cy5bg68().s[40]++;
             return this.$asResolved();
         }
         is(value) {
-            cov_1xcc0qslek().f[7]++;
-            cov_1xcc0qslek().s[41]++;
+            cov_1b4cy5bg68().f[7]++;
+            cov_1b4cy5bg68().s[41]++;
             this.$operation = "is";
-            cov_1xcc0qslek().s[42]++;
+            cov_1b4cy5bg68().s[42]++;
             this.$objectation = value;
-            cov_1xcc0qslek().s[43]++;
+            cov_1b4cy5bg68().s[43]++;
             if (this.$subject !== value) {
-                cov_1xcc0qslek().b[13][0]++;
-                cov_1xcc0qslek().s[44]++;
+                cov_1b4cy5bg68().b[13][0]++;
+                cov_1b4cy5bg68().s[44]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[13][1]++;
+                cov_1b4cy5bg68().b[13][1]++;
             }
-            cov_1xcc0qslek().s[45]++;
+            cov_1b4cy5bg68().s[45]++;
             return this.$asResolved();
         }
         isnt(value) {
-            cov_1xcc0qslek().f[8]++;
-            cov_1xcc0qslek().s[46]++;
+            cov_1b4cy5bg68().f[8]++;
+            cov_1b4cy5bg68().s[46]++;
             this.$operation = "is not";
-            cov_1xcc0qslek().s[47]++;
+            cov_1b4cy5bg68().s[47]++;
             this.$objectation = value;
-            cov_1xcc0qslek().s[48]++;
+            cov_1b4cy5bg68().s[48]++;
             if (this.$subject === value) {
-                cov_1xcc0qslek().b[14][0]++;
-                cov_1xcc0qslek().s[49]++;
+                cov_1b4cy5bg68().b[14][0]++;
+                cov_1b4cy5bg68().s[49]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[14][1]++;
+                cov_1b4cy5bg68().b[14][1]++;
             }
-            cov_1xcc0qslek().s[50]++;
+            cov_1b4cy5bg68().s[50]++;
             return this.$asResolved();
         }
         can(value) {
-            cov_1xcc0qslek().f[9]++;
-            cov_1xcc0qslek().s[51]++;
+            cov_1b4cy5bg68().f[9]++;
+            cov_1b4cy5bg68().s[51]++;
             this.$operation = "can";
-            cov_1xcc0qslek().s[52]++;
+            cov_1b4cy5bg68().s[52]++;
             this.$objectation = value;
-            cov_1xcc0qslek().s[53]++;
+            cov_1b4cy5bg68().s[53]++;
             if (!value(this.$subject)) {
-                cov_1xcc0qslek().b[15][0]++;
-                cov_1xcc0qslek().s[54]++;
+                cov_1b4cy5bg68().b[15][0]++;
+                cov_1b4cy5bg68().s[54]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[15][1]++;
+                cov_1b4cy5bg68().b[15][1]++;
             }
-            cov_1xcc0qslek().s[55]++;
+            cov_1b4cy5bg68().s[55]++;
             return this.$asResolved();
         }
         cant(value) {
-            cov_1xcc0qslek().f[10]++;
-            cov_1xcc0qslek().s[56]++;
+            cov_1b4cy5bg68().f[10]++;
+            cov_1b4cy5bg68().s[56]++;
             this.$operation = "cant";
-            cov_1xcc0qslek().s[57]++;
+            cov_1b4cy5bg68().s[57]++;
             this.$objectation = value;
-            cov_1xcc0qslek().s[58]++;
+            cov_1b4cy5bg68().s[58]++;
             if (value(this.$subject)) {
-                cov_1xcc0qslek().b[16][0]++;
-                cov_1xcc0qslek().s[59]++;
+                cov_1b4cy5bg68().b[16][0]++;
+                cov_1b4cy5bg68().s[59]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[16][1]++;
+                cov_1b4cy5bg68().b[16][1]++;
             }
-            cov_1xcc0qslek().s[60]++;
+            cov_1b4cy5bg68().s[60]++;
             return this.$asResolved();
         }
         throws(value) {
-            cov_1xcc0qslek().f[11]++;
-            cov_1xcc0qslek().s[61]++;
+            cov_1b4cy5bg68().f[11]++;
+            cov_1b4cy5bg68().s[61]++;
             this.$operation = "throws";
-            cov_1xcc0qslek().s[62]++;
+            cov_1b4cy5bg68().s[62]++;
             this.$objectation = value;
-            cov_1xcc0qslek().s[63]++;
+            cov_1b4cy5bg68().s[63]++;
             try {
-                cov_1xcc0qslek().s[64]++;
+                cov_1b4cy5bg68().s[64]++;
                 objectation(this.$subject);
-                cov_1xcc0qslek().s[65]++;
+                cov_1b4cy5bg68().s[65]++;
                 return this.$asFailed();
             } catch (error) {
-                cov_1xcc0qslek().s[66]++;
+                cov_1b4cy5bg68().s[66]++;
                 return this.$asResolved();
             }
         }
         doesntThrow(value) {
-            cov_1xcc0qslek().f[12]++;
-            cov_1xcc0qslek().s[67]++;
+            cov_1b4cy5bg68().f[12]++;
+            cov_1b4cy5bg68().s[67]++;
             this.$operation = "doesntThrow";
-            cov_1xcc0qslek().s[68]++;
+            cov_1b4cy5bg68().s[68]++;
             this.$objectation = value;
-            cov_1xcc0qslek().s[69]++;
+            cov_1b4cy5bg68().s[69]++;
             try {
-                cov_1xcc0qslek().s[70]++;
+                cov_1b4cy5bg68().s[70]++;
                 value(this.$subject);
-                cov_1xcc0qslek().s[71]++;
+                cov_1b4cy5bg68().s[71]++;
                 return this.$asFailed();
             } catch (error) {
-                cov_1xcc0qslek().s[72]++;
+                cov_1b4cy5bg68().s[72]++;
                 return this.$asResolved();
             }
         }
-        $asFailed(operation = (cov_1xcc0qslek().b[17][0]++, this.$operation)) {
-            cov_1xcc0qslek().f[13]++;
-            cov_1xcc0qslek().s[73]++;
+        $asFailed(operation = (cov_1b4cy5bg68().b[17][0]++, this.$operation)) {
+            cov_1b4cy5bg68().f[13]++;
+            cov_1b4cy5bg68().s[73]++;
             if (this.asBoolean) {
-                cov_1xcc0qslek().b[18][0]++;
-                cov_1xcc0qslek().s[74]++;
+                cov_1b4cy5bg68().b[18][0]++;
+                cov_1b4cy5bg68().s[74]++;
                 return false;
             } else {
-                cov_1xcc0qslek().b[18][1]++;
+                cov_1b4cy5bg68().b[18][1]++;
             }
-            cov_1xcc0qslek().s[75]++;
-            throw new AssertionError("could not ensure «" + this.$subjectId + "» " + operation + (this.$objectation ? (cov_1xcc0qslek().b[19][0]++, " «" + this.$getObjectationAsString() + "»") : (cov_1xcc0qslek().b[19][1]++, "")) + "");
+            cov_1b4cy5bg68().s[75]++;
+            throw new AssertionError("could not ensure «" + this.$subjectId + "» " + operation + (this.$objectation ? (cov_1b4cy5bg68().b[19][0]++, " «" + this.$getObjectationAsString() + "»") : (cov_1b4cy5bg68().b[19][1]++, "")) + "");
         }
         $getObjectationAsString() {
-            cov_1xcc0qslek().f[14]++;
-            cov_1xcc0qslek().s[76]++;
+            cov_1b4cy5bg68().f[14]++;
+            cov_1b4cy5bg68().s[76]++;
             return JSON.stringify(this.$objectation);
         }
         $asResolved() {
-            cov_1xcc0qslek().f[15]++;
-            cov_1xcc0qslek().s[77]++;
+            cov_1b4cy5bg68().f[15]++;
+            cov_1b4cy5bg68().s[77]++;
             if (this.asBoolean) {
-                cov_1xcc0qslek().b[20][0]++;
-                cov_1xcc0qslek().s[78]++;
+                cov_1b4cy5bg68().b[20][0]++;
+                cov_1b4cy5bg68().s[78]++;
                 return true;
             } else {
-                cov_1xcc0qslek().b[20][1]++;
-                cov_1xcc0qslek().s[79]++;
+                cov_1b4cy5bg68().b[20][1]++;
+                cov_1b4cy5bg68().s[79]++;
                 return this;
             }
         }
     };
-    cov_1xcc0qslek().s[80]++;
+    cov_1b4cy5bg68().s[80]++;
     const BasicToBeInterface = class {
-        $isNegated = (cov_1xcc0qslek().s[81]++, false);
+        $isNegated = (cov_1b4cy5bg68().s[81]++, false);
         set $operation(value) {
-            cov_1xcc0qslek().f[16]++;
-            cov_1xcc0qslek().s[82]++;
+            cov_1b4cy5bg68().f[16]++;
+            cov_1b4cy5bg68().s[82]++;
             this.$ensurement.$operation = value;
         }
         get $operation() {
-            cov_1xcc0qslek().f[17]++;
-            cov_1xcc0qslek().s[83]++;
+            cov_1b4cy5bg68().f[17]++;
+            cov_1b4cy5bg68().s[83]++;
             return this.$ensurement.$operation;
         }
         set $objectation(value) {
-            cov_1xcc0qslek().f[18]++;
-            cov_1xcc0qslek().s[84]++;
+            cov_1b4cy5bg68().f[18]++;
+            cov_1b4cy5bg68().s[84]++;
             this.$ensurement.$objectation = value;
         }
         get $objectation() {
-            cov_1xcc0qslek().f[19]++;
-            cov_1xcc0qslek().s[85]++;
+            cov_1b4cy5bg68().f[19]++;
+            cov_1b4cy5bg68().s[85]++;
             return this.$ensurement.$objectation;
         }
         constructor(ensurement) {
-            cov_1xcc0qslek().f[20]++;
-            cov_1xcc0qslek().s[86]++;
+            cov_1b4cy5bg68().f[20]++;
+            cov_1b4cy5bg68().s[86]++;
             this.$ensurement = ensurement;
-            cov_1xcc0qslek().s[87]++;
+            cov_1b4cy5bg68().s[87]++;
             this.$subject = this.$ensurement.$subject;
         }
         $makeNegable(condition) {
-            cov_1xcc0qslek().f[21]++;
-            cov_1xcc0qslek().s[88]++;
-            return this.$isNegated === true ? (cov_1xcc0qslek().b[21][0]++, !condition) : (cov_1xcc0qslek().b[21][1]++, condition);
+            cov_1b4cy5bg68().f[21]++;
+            cov_1b4cy5bg68().s[88]++;
+            return this.$isNegated === true ? (cov_1b4cy5bg68().b[21][0]++, !condition) : (cov_1b4cy5bg68().b[21][1]++, condition);
         }
         $asFailed() {
-            cov_1xcc0qslek().f[22]++;
-            cov_1xcc0qslek().s[89]++;
+            cov_1b4cy5bg68().f[22]++;
+            cov_1b4cy5bg68().s[89]++;
             return this.$ensurement.$asFailed();
         }
         $resolveNegableString(text) {
-            cov_1xcc0qslek().f[23]++;
-            cov_1xcc0qslek().s[90]++;
-            return text.replace(/\{not\?\} */g, this.$isNegated ? (cov_1xcc0qslek().b[22][0]++, "not ") : (cov_1xcc0qslek().b[22][1]++, ""));
+            cov_1b4cy5bg68().f[23]++;
+            cov_1b4cy5bg68().s[90]++;
+            return text.replace(/\{not\?\} */g, this.$isNegated ? (cov_1b4cy5bg68().b[22][0]++, "not ") : (cov_1b4cy5bg68().b[22][1]++, ""));
         }
     };
-    cov_1xcc0qslek().s[91]++;
+    cov_1b4cy5bg68().s[91]++;
     const ToBeInterface = class extends BasicToBeInterface {
         string() {
-            cov_1xcc0qslek().f[24]++;
-            cov_1xcc0qslek().s[92]++;
+            cov_1b4cy5bg68().f[24]++;
+            cov_1b4cy5bg68().s[92]++;
             this.$operation = this.$resolveNegableString("to {not?} be string");
-            cov_1xcc0qslek().s[93]++;
+            cov_1b4cy5bg68().s[93]++;
             this.$objectation = undefined;
-            cov_1xcc0qslek().s[94]++;
+            cov_1b4cy5bg68().s[94]++;
             if (this.$makeNegable(typeof this.$subject !== "string")) {
-                cov_1xcc0qslek().b[23][0]++;
-                cov_1xcc0qslek().s[95]++;
+                cov_1b4cy5bg68().b[23][0]++;
+                cov_1b4cy5bg68().s[95]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[23][1]++;
+                cov_1b4cy5bg68().b[23][1]++;
             }
-            cov_1xcc0qslek().s[96]++;
+            cov_1b4cy5bg68().s[96]++;
             return this.$ensurement.$asResolved();
         }
         number() {
-            cov_1xcc0qslek().f[25]++;
-            cov_1xcc0qslek().s[97]++;
+            cov_1b4cy5bg68().f[25]++;
+            cov_1b4cy5bg68().s[97]++;
             this.$operation = this.$resolveNegableString("to {not?} be number");
-            cov_1xcc0qslek().s[98]++;
+            cov_1b4cy5bg68().s[98]++;
             this.$objectation = undefined;
-            cov_1xcc0qslek().s[99]++;
-            if ((cov_1xcc0qslek().b[25][0]++, this.$makeNegable(typeof this.$subject !== "number")) || (cov_1xcc0qslek().b[25][1]++, Number.isNaN(this.$subject))) {
-                cov_1xcc0qslek().b[24][0]++;
-                cov_1xcc0qslek().s[100]++;
+            cov_1b4cy5bg68().s[99]++;
+            if ((cov_1b4cy5bg68().b[25][0]++, this.$makeNegable(typeof this.$subject !== "number")) || (cov_1b4cy5bg68().b[25][1]++, Number.isNaN(this.$subject))) {
+                cov_1b4cy5bg68().b[24][0]++;
+                cov_1b4cy5bg68().s[100]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[24][1]++;
+                cov_1b4cy5bg68().b[24][1]++;
             }
-            cov_1xcc0qslek().s[101]++;
+            cov_1b4cy5bg68().s[101]++;
             return this.$ensurement.$asResolved();
         }
         object() {
-            cov_1xcc0qslek().f[26]++;
-            cov_1xcc0qslek().s[102]++;
+            cov_1b4cy5bg68().f[26]++;
+            cov_1b4cy5bg68().s[102]++;
             this.$operation = this.$resolveNegableString("to {not?} be object");
-            cov_1xcc0qslek().s[103]++;
+            cov_1b4cy5bg68().s[103]++;
             this.$objectation = undefined;
-            cov_1xcc0qslek().s[104]++;
+            cov_1b4cy5bg68().s[104]++;
             if (this.$makeNegable(typeof this.$subject !== "object")) {
-                cov_1xcc0qslek().b[26][0]++;
-                cov_1xcc0qslek().s[105]++;
+                cov_1b4cy5bg68().b[26][0]++;
+                cov_1b4cy5bg68().s[105]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[26][1]++;
+                cov_1b4cy5bg68().b[26][1]++;
             }
-            cov_1xcc0qslek().s[106]++;
+            cov_1b4cy5bg68().s[106]++;
             return this.$ensurement.$asResolved();
         }
         null() {
-            cov_1xcc0qslek().f[27]++;
-            cov_1xcc0qslek().s[107]++;
+            cov_1b4cy5bg68().f[27]++;
+            cov_1b4cy5bg68().s[107]++;
             this.$operation = this.$resolveNegableString("to {not?} be null");
-            cov_1xcc0qslek().s[108]++;
+            cov_1b4cy5bg68().s[108]++;
             this.$objectation = undefined;
-            cov_1xcc0qslek().s[109]++;
+            cov_1b4cy5bg68().s[109]++;
             if (this.$makeNegable(typeof this.$subject !== null)) {
-                cov_1xcc0qslek().b[27][0]++;
-                cov_1xcc0qslek().s[110]++;
+                cov_1b4cy5bg68().b[27][0]++;
+                cov_1b4cy5bg68().s[110]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[27][1]++;
+                cov_1b4cy5bg68().b[27][1]++;
             }
-            cov_1xcc0qslek().s[111]++;
+            cov_1b4cy5bg68().s[111]++;
             return this.$ensurement.$asResolved();
         }
         undefined() {
-            cov_1xcc0qslek().f[28]++;
-            cov_1xcc0qslek().s[112]++;
+            cov_1b4cy5bg68().f[28]++;
+            cov_1b4cy5bg68().s[112]++;
             this.$operation = this.$resolveNegableString("to {not?} be undefined");
-            cov_1xcc0qslek().s[113]++;
+            cov_1b4cy5bg68().s[113]++;
             this.$objectation = undefined;
-            cov_1xcc0qslek().s[114]++;
+            cov_1b4cy5bg68().s[114]++;
             if (this.$makeNegable(typeof this.$subject !== "undefined")) {
-                cov_1xcc0qslek().b[28][0]++;
-                cov_1xcc0qslek().s[115]++;
+                cov_1b4cy5bg68().b[28][0]++;
+                cov_1b4cy5bg68().s[115]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[28][1]++;
+                cov_1b4cy5bg68().b[28][1]++;
             }
-            cov_1xcc0qslek().s[116]++;
+            cov_1b4cy5bg68().s[116]++;
             return this.$ensurement.$asResolved();
         }
         boolean() {
-            cov_1xcc0qslek().f[29]++;
-            cov_1xcc0qslek().s[117]++;
+            cov_1b4cy5bg68().f[29]++;
+            cov_1b4cy5bg68().s[117]++;
             this.$operation = this.$resolveNegableString("to {not?} be boolean");
-            cov_1xcc0qslek().s[118]++;
+            cov_1b4cy5bg68().s[118]++;
             this.$objectation = undefined;
-            cov_1xcc0qslek().s[119]++;
+            cov_1b4cy5bg68().s[119]++;
             if (this.$makeNegable(typeof this.$subject !== "boolean")) {
-                cov_1xcc0qslek().b[29][0]++;
-                cov_1xcc0qslek().s[120]++;
+                cov_1b4cy5bg68().b[29][0]++;
+                cov_1b4cy5bg68().s[120]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[29][1]++;
+                cov_1b4cy5bg68().b[29][1]++;
             }
-            cov_1xcc0qslek().s[121]++;
+            cov_1b4cy5bg68().s[121]++;
             return this.$ensurement.$asResolved();
         }
         instanceOf(clazz) {
-            cov_1xcc0qslek().f[30]++;
-            cov_1xcc0qslek().s[122]++;
+            cov_1b4cy5bg68().f[30]++;
+            cov_1b4cy5bg68().s[122]++;
             this.$operation = this.$resolveNegableString("to {not?} be instanceOf");
-            cov_1xcc0qslek().s[123]++;
+            cov_1b4cy5bg68().s[123]++;
             this.$objectation = undefined;
-            cov_1xcc0qslek().s[124]++;
+            cov_1b4cy5bg68().s[124]++;
             if (this.$makeNegable(!(this.$subject instanceof clazz))) {
-                cov_1xcc0qslek().b[30][0]++;
-                cov_1xcc0qslek().s[125]++;
+                cov_1b4cy5bg68().b[30][0]++;
+                cov_1b4cy5bg68().s[125]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[30][1]++;
+                cov_1b4cy5bg68().b[30][1]++;
             }
-            cov_1xcc0qslek().s[126]++;
+            cov_1b4cy5bg68().s[126]++;
             return this.$ensurement.$asResolved();
         }
         array() {
-            cov_1xcc0qslek().f[31]++;
-            cov_1xcc0qslek().s[127]++;
+            cov_1b4cy5bg68().f[31]++;
+            cov_1b4cy5bg68().s[127]++;
             this.$operation = this.$resolveNegableString("to {not?} be array");
-            cov_1xcc0qslek().s[128]++;
+            cov_1b4cy5bg68().s[128]++;
             this.$objectation = undefined;
-            cov_1xcc0qslek().s[129]++;
+            cov_1b4cy5bg68().s[129]++;
             if (this.$makeNegable(!Array.isArray(this.$subject))) {
-                cov_1xcc0qslek().b[31][0]++;
-                cov_1xcc0qslek().s[130]++;
+                cov_1b4cy5bg68().b[31][0]++;
+                cov_1b4cy5bg68().s[130]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[31][1]++;
+                cov_1b4cy5bg68().b[31][1]++;
             }
-            cov_1xcc0qslek().s[131]++;
+            cov_1b4cy5bg68().s[131]++;
             return this.$ensurement.$asResolved();
         }
 
         function() {
-            cov_1xcc0qslek().f[32]++;
-            cov_1xcc0qslek().s[132]++;
+            cov_1b4cy5bg68().f[32]++;
+            cov_1b4cy5bg68().s[132]++;
             this.$operation = this.$resolveNegableString("to {not?} be function");
-            cov_1xcc0qslek().s[133]++;
+            cov_1b4cy5bg68().s[133]++;
             this.$objectation = undefined;
-            cov_1xcc0qslek().s[134]++;
+            cov_1b4cy5bg68().s[134]++;
             if (this.$makeNegable(typeof this.$subject !== "function")) {
-                cov_1xcc0qslek().b[32][0]++;
-                cov_1xcc0qslek().s[135]++;
+                cov_1b4cy5bg68().b[32][0]++;
+                cov_1b4cy5bg68().s[135]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[32][1]++;
+                cov_1b4cy5bg68().b[32][1]++;
             }
-            cov_1xcc0qslek().s[136]++;
+            cov_1b4cy5bg68().s[136]++;
             return this.$ensurement.$asResolved();
         }
         empty() {
-            cov_1xcc0qslek().f[33]++;
-            cov_1xcc0qslek().s[137]++;
+            cov_1b4cy5bg68().f[33]++;
+            cov_1b4cy5bg68().s[137]++;
             this.$operation = this.$resolveNegableString("to {not?} be empty");
-            cov_1xcc0qslek().s[138]++;
+            cov_1b4cy5bg68().s[138]++;
             this.$objectation = undefined;
-            const isEmpty = (cov_1xcc0qslek().s[139]++, (() => {
-                cov_1xcc0qslek().f[34]++;
-                const s = (cov_1xcc0qslek().s[140]++, this.$subject);
-                cov_1xcc0qslek().s[141]++;
+            const isEmpty = (cov_1b4cy5bg68().s[139]++, (() => {
+                cov_1b4cy5bg68().f[34]++;
+                const s = (cov_1b4cy5bg68().s[140]++, this.$subject);
+                cov_1b4cy5bg68().s[141]++;
                 if (Array.isArray(s)) {
-                    cov_1xcc0qslek().b[33][0]++;
-                    cov_1xcc0qslek().s[142]++;
+                    cov_1b4cy5bg68().b[33][0]++;
+                    cov_1b4cy5bg68().s[142]++;
                     return s.length === 0;
                 } else {
-                    cov_1xcc0qslek().b[33][1]++;
-                    cov_1xcc0qslek().s[143]++;
+                    cov_1b4cy5bg68().b[33][1]++;
+                    cov_1b4cy5bg68().s[143]++;
                     if (typeof s === "object") {
-                        cov_1xcc0qslek().b[34][0]++;
-                        cov_1xcc0qslek().s[144]++;
-                        return (cov_1xcc0qslek().b[35][0]++, s === null) || (cov_1xcc0qslek().b[35][1]++, Object.keys(s).length === 0);
+                        cov_1b4cy5bg68().b[34][0]++;
+                        cov_1b4cy5bg68().s[144]++;
+                        return (cov_1b4cy5bg68().b[35][0]++, s === null) || (cov_1b4cy5bg68().b[35][1]++, Object.keys(s).length === 0);
                     } else {
-                        cov_1xcc0qslek().b[34][1]++;
-                        cov_1xcc0qslek().s[145]++;
+                        cov_1b4cy5bg68().b[34][1]++;
+                        cov_1b4cy5bg68().s[145]++;
                         if (typeof s === "string") {
-                            cov_1xcc0qslek().b[36][0]++;
-                            cov_1xcc0qslek().s[146]++;
+                            cov_1b4cy5bg68().b[36][0]++;
+                            cov_1b4cy5bg68().s[146]++;
                             return s === "";
                         } else {
-                            cov_1xcc0qslek().b[36][1]++;
-                            cov_1xcc0qslek().s[147]++;
+                            cov_1b4cy5bg68().b[36][1]++;
+                            cov_1b4cy5bg68().s[147]++;
                             if (typeof s === "number") {
-                                cov_1xcc0qslek().b[37][0]++;
-                                cov_1xcc0qslek().s[148]++;
+                                cov_1b4cy5bg68().b[37][0]++;
+                                cov_1b4cy5bg68().s[148]++;
                                 return s === 0;
                             } else {
-                                cov_1xcc0qslek().b[37][1]++;
-                                cov_1xcc0qslek().s[149]++;
+                                cov_1b4cy5bg68().b[37][1]++;
+                                cov_1b4cy5bg68().s[149]++;
                                 if (typeof s === "boolean") {
-                                    cov_1xcc0qslek().b[38][0]++;
-                                    cov_1xcc0qslek().s[150]++;
+                                    cov_1b4cy5bg68().b[38][0]++;
+                                    cov_1b4cy5bg68().s[150]++;
                                     return s === false;
                                 } else {
-                                    cov_1xcc0qslek().b[38][1]++;
-                                    cov_1xcc0qslek().s[151]++;
+                                    cov_1b4cy5bg68().b[38][1]++;
+                                    cov_1b4cy5bg68().s[151]++;
                                     return true;
                                 }
                             }
@@ -8296,419 +8296,419 @@ cov_1xcc0qslek().s[0]++;
                     }
                 }
             })());
-            cov_1xcc0qslek().s[152]++;
+            cov_1b4cy5bg68().s[152]++;
             if (this.$makeNegable(!isEmpty)) {
-                cov_1xcc0qslek().b[39][0]++;
-                cov_1xcc0qslek().s[153]++;
+                cov_1b4cy5bg68().b[39][0]++;
+                cov_1b4cy5bg68().s[153]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[39][1]++;
+                cov_1b4cy5bg68().b[39][1]++;
             }
-            cov_1xcc0qslek().s[154]++;
+            cov_1b4cy5bg68().s[154]++;
             return this.$ensurement.$asResolved();
         }
         equalTo(value) {
-            cov_1xcc0qslek().f[35]++;
-            cov_1xcc0qslek().s[155]++;
+            cov_1b4cy5bg68().f[35]++;
+            cov_1b4cy5bg68().s[155]++;
             this.$operation = this.$resolveNegableString("to {not?} be equal to");
-            cov_1xcc0qslek().s[156]++;
+            cov_1b4cy5bg68().s[156]++;
             this.$objectation = value;
-            let isEqual = (cov_1xcc0qslek().s[157]++, this.$subject === value);
-            cov_1xcc0qslek().s[158]++;
+            let isEqual = (cov_1b4cy5bg68().s[157]++, this.$subject === value);
+            cov_1b4cy5bg68().s[158]++;
             if (this.$makeNegable(!isEqual)) {
-                cov_1xcc0qslek().b[40][0]++;
-                cov_1xcc0qslek().s[159]++;
+                cov_1b4cy5bg68().b[40][0]++;
+                cov_1b4cy5bg68().s[159]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[40][1]++;
+                cov_1b4cy5bg68().b[40][1]++;
             }
-            cov_1xcc0qslek().s[160]++;
+            cov_1b4cy5bg68().s[160]++;
             return this.$ensurement.$asResolved();
         }
         equalOrGreaterThan(value) {
-            cov_1xcc0qslek().f[36]++;
-            cov_1xcc0qslek().s[161]++;
+            cov_1b4cy5bg68().f[36]++;
+            cov_1b4cy5bg68().s[161]++;
             this.$operation = this.$resolveNegableString("to {not?} be equal or greater than");
-            cov_1xcc0qslek().s[162]++;
+            cov_1b4cy5bg68().s[162]++;
             this.$objectation = value;
-            let isGreaterOrEqual = (cov_1xcc0qslek().s[163]++, this.$subject >= value);
-            cov_1xcc0qslek().s[164]++;
+            let isGreaterOrEqual = (cov_1b4cy5bg68().s[163]++, this.$subject >= value);
+            cov_1b4cy5bg68().s[164]++;
             if (this.$makeNegable(!isGreaterOrEqual)) {
-                cov_1xcc0qslek().b[41][0]++;
-                cov_1xcc0qslek().s[165]++;
+                cov_1b4cy5bg68().b[41][0]++;
+                cov_1b4cy5bg68().s[165]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[41][1]++;
+                cov_1b4cy5bg68().b[41][1]++;
             }
-            cov_1xcc0qslek().s[166]++;
+            cov_1b4cy5bg68().s[166]++;
             return this.$ensurement.$asResolved();
         }
         greaterThan(value) {
-            cov_1xcc0qslek().f[37]++;
-            cov_1xcc0qslek().s[167]++;
+            cov_1b4cy5bg68().f[37]++;
+            cov_1b4cy5bg68().s[167]++;
             this.$operation = this.$resolveNegableString("to {not?} be greater than");
-            cov_1xcc0qslek().s[168]++;
+            cov_1b4cy5bg68().s[168]++;
             this.$objectation = value;
-            let isGreater = (cov_1xcc0qslek().s[169]++, this.$subject > value);
-            cov_1xcc0qslek().s[170]++;
+            let isGreater = (cov_1b4cy5bg68().s[169]++, this.$subject > value);
+            cov_1b4cy5bg68().s[170]++;
             if (this.$makeNegable(!isGreater)) {
-                cov_1xcc0qslek().b[42][0]++;
-                cov_1xcc0qslek().s[171]++;
+                cov_1b4cy5bg68().b[42][0]++;
+                cov_1b4cy5bg68().s[171]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[42][1]++;
+                cov_1b4cy5bg68().b[42][1]++;
             }
-            cov_1xcc0qslek().s[172]++;
+            cov_1b4cy5bg68().s[172]++;
             return this.$ensurement.$asResolved();
         }
         greaterOrEqualTo(...args) {
-            cov_1xcc0qslek().f[38]++;
-            cov_1xcc0qslek().s[173]++;
+            cov_1b4cy5bg68().f[38]++;
+            cov_1b4cy5bg68().s[173]++;
             return this.equalOrGreaterThan(...args);
         }
         equalOrLowerThan(value) {
-            cov_1xcc0qslek().f[39]++;
-            cov_1xcc0qslek().s[174]++;
+            cov_1b4cy5bg68().f[39]++;
+            cov_1b4cy5bg68().s[174]++;
             this.$operation = this.$resolveNegableString("to {not?} equal or lower than");
-            cov_1xcc0qslek().s[175]++;
+            cov_1b4cy5bg68().s[175]++;
             this.$objectation = value;
-            let isGreaterOrEqual = (cov_1xcc0qslek().s[176]++, this.$subject <= value);
-            cov_1xcc0qslek().s[177]++;
+            let isGreaterOrEqual = (cov_1b4cy5bg68().s[176]++, this.$subject <= value);
+            cov_1b4cy5bg68().s[177]++;
             if (this.$makeNegable(!isGreaterOrEqual)) {
-                cov_1xcc0qslek().b[43][0]++;
-                cov_1xcc0qslek().s[178]++;
+                cov_1b4cy5bg68().b[43][0]++;
+                cov_1b4cy5bg68().s[178]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[43][1]++;
+                cov_1b4cy5bg68().b[43][1]++;
             }
-            cov_1xcc0qslek().s[179]++;
+            cov_1b4cy5bg68().s[179]++;
             return this.$ensurement.$asResolved();
         }
         lowerThan(value) {
-            cov_1xcc0qslek().f[40]++;
-            cov_1xcc0qslek().s[180]++;
+            cov_1b4cy5bg68().f[40]++;
+            cov_1b4cy5bg68().s[180]++;
             this.$operation = this.$resolveNegableString("to {not?} be lower than");
-            cov_1xcc0qslek().s[181]++;
+            cov_1b4cy5bg68().s[181]++;
             this.$objectation = value;
-            let isGreater = (cov_1xcc0qslek().s[182]++, this.$subject < value);
-            cov_1xcc0qslek().s[183]++;
+            let isGreater = (cov_1b4cy5bg68().s[182]++, this.$subject < value);
+            cov_1b4cy5bg68().s[183]++;
             if (this.$makeNegable(!isGreater)) {
-                cov_1xcc0qslek().b[44][0]++;
-                cov_1xcc0qslek().s[184]++;
+                cov_1b4cy5bg68().b[44][0]++;
+                cov_1b4cy5bg68().s[184]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[44][1]++;
+                cov_1b4cy5bg68().b[44][1]++;
             }
-            cov_1xcc0qslek().s[185]++;
+            cov_1b4cy5bg68().s[185]++;
             return this.$ensurement.$asResolved();
         }
         lowerOrEqualTo(value) {
-            cov_1xcc0qslek().f[41]++;
-            cov_1xcc0qslek().s[186]++;
+            cov_1b4cy5bg68().f[41]++;
+            cov_1b4cy5bg68().s[186]++;
             return this.equalOrLowerThan(...args);
         }
         oneOf(value) {
-            cov_1xcc0qslek().f[42]++;
-            cov_1xcc0qslek().s[187]++;
+            cov_1b4cy5bg68().f[42]++;
+            cov_1b4cy5bg68().s[187]++;
             this.$operation = this.$resolveNegableString("to {not?} be one of");
-            cov_1xcc0qslek().s[188]++;
+            cov_1b4cy5bg68().s[188]++;
             this.$objectation = value;
-            cov_1xcc0qslek().s[189]++;
+            cov_1b4cy5bg68().s[189]++;
             if (!Array.isArray(value)) {
-                cov_1xcc0qslek().b[45][0]++;
-                cov_1xcc0qslek().s[190]++;
+                cov_1b4cy5bg68().b[45][0]++;
+                cov_1b4cy5bg68().s[190]++;
                 throw new Error(`Required on «$ensure(...).to.be.oneOf(!)» to provide an array on «ToBeInterface.oneOf»`);
             } else {
-                cov_1xcc0qslek().b[45][1]++;
+                cov_1b4cy5bg68().b[45][1]++;
             }
-            let isOne = (cov_1xcc0qslek().s[191]++, this.$objectation.indexOf(this.$subject) !== -1);
-            cov_1xcc0qslek().s[192]++;
+            let isOne = (cov_1b4cy5bg68().s[191]++, this.$objectation.indexOf(this.$subject) !== -1);
+            cov_1b4cy5bg68().s[192]++;
             if (this.$makeNegable(!isOne)) {
-                cov_1xcc0qslek().b[46][0]++;
-                cov_1xcc0qslek().s[193]++;
+                cov_1b4cy5bg68().b[46][0]++;
+                cov_1b4cy5bg68().s[193]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[46][1]++;
+                cov_1b4cy5bg68().b[46][1]++;
             }
-            cov_1xcc0qslek().s[194]++;
+            cov_1b4cy5bg68().s[194]++;
             return this.$ensurement.$asResolved();
         }
     };
-    cov_1xcc0qslek().s[195]++;
+    cov_1b4cy5bg68().s[195]++;
     const ToNotBeInterface = class extends ToBeInterface {
-        $isNegated = (cov_1xcc0qslek().s[196]++, true);
+        $isNegated = (cov_1b4cy5bg68().s[196]++, true);
     };
-    cov_1xcc0qslek().s[197]++;
+    cov_1b4cy5bg68().s[197]++;
     const ToHaveInterface = class extends BasicToBeInterface {
         text(prop) {
-            cov_1xcc0qslek().f[43]++;
-            cov_1xcc0qslek().s[198]++;
+            cov_1b4cy5bg68().f[43]++;
+            cov_1b4cy5bg68().s[198]++;
             this.$operation = this.$resolveNegableString("to {not?} have text");
-            cov_1xcc0qslek().s[199]++;
+            cov_1b4cy5bg68().s[199]++;
             this.$objectation = prop;
-            const hasSubstring = (cov_1xcc0qslek().s[200]++, this.$subject.indexOf(prop) !== -1);
-            cov_1xcc0qslek().s[201]++;
+            const hasSubstring = (cov_1b4cy5bg68().s[200]++, this.$subject.indexOf(prop) !== -1);
+            cov_1b4cy5bg68().s[201]++;
             if (this.$makeNegable(!hasSubstring)) {
-                cov_1xcc0qslek().b[47][0]++;
-                cov_1xcc0qslek().s[202]++;
+                cov_1b4cy5bg68().b[47][0]++;
+                cov_1b4cy5bg68().s[202]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[47][1]++;
+                cov_1b4cy5bg68().b[47][1]++;
             }
-            cov_1xcc0qslek().s[203]++;
+            cov_1b4cy5bg68().s[203]++;
             return this.$ensurement.$asResolved();
         }
         key(prop) {
-            cov_1xcc0qslek().f[44]++;
-            cov_1xcc0qslek().s[204]++;
+            cov_1b4cy5bg68().f[44]++;
+            cov_1b4cy5bg68().s[204]++;
             this.$operation = this.$resolveNegableString("to {not?} have key");
-            cov_1xcc0qslek().s[205]++;
+            cov_1b4cy5bg68().s[205]++;
             this.$objectation = prop;
-            const keys = (cov_1xcc0qslek().s[206]++, Object.keys(this.$subject));
-            const hasKey = (cov_1xcc0qslek().s[207]++, keys.indexOf(prop) !== -1);
-            cov_1xcc0qslek().s[208]++;
+            const keys = (cov_1b4cy5bg68().s[206]++, Object.keys(this.$subject));
+            const hasKey = (cov_1b4cy5bg68().s[207]++, keys.indexOf(prop) !== -1);
+            cov_1b4cy5bg68().s[208]++;
             if (this.$makeNegable(!hasKey)) {
-                cov_1xcc0qslek().b[48][0]++;
-                cov_1xcc0qslek().s[209]++;
+                cov_1b4cy5bg68().b[48][0]++;
+                cov_1b4cy5bg68().s[209]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[48][1]++;
+                cov_1b4cy5bg68().b[48][1]++;
             }
-            cov_1xcc0qslek().s[210]++;
+            cov_1b4cy5bg68().s[210]++;
             return this.$ensurement.$asResolved();
         }
         value(prop) {
-            cov_1xcc0qslek().f[45]++;
-            cov_1xcc0qslek().s[211]++;
+            cov_1b4cy5bg68().f[45]++;
+            cov_1b4cy5bg68().s[211]++;
             this.$operation = this.$resolveNegableString("to {not?} have value");
-            cov_1xcc0qslek().s[212]++;
+            cov_1b4cy5bg68().s[212]++;
             this.$objectation = prop;
-            const values = (cov_1xcc0qslek().s[213]++, Object.values(this.$subject));
-            const hasValue = (cov_1xcc0qslek().s[214]++, values.indexOf(prop) !== -1);
-            cov_1xcc0qslek().s[215]++;
+            const values = (cov_1b4cy5bg68().s[213]++, Object.values(this.$subject));
+            const hasValue = (cov_1b4cy5bg68().s[214]++, values.indexOf(prop) !== -1);
+            cov_1b4cy5bg68().s[215]++;
             if (this.$makeNegable(!hasValue)) {
-                cov_1xcc0qslek().b[49][0]++;
-                cov_1xcc0qslek().s[216]++;
+                cov_1b4cy5bg68().b[49][0]++;
+                cov_1b4cy5bg68().s[216]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[49][1]++;
+                cov_1b4cy5bg68().b[49][1]++;
             }
-            cov_1xcc0qslek().s[217]++;
+            cov_1b4cy5bg68().s[217]++;
             return this.$ensurement.$asResolved();
         }
         onlyPotentialKeys(props) {
-            cov_1xcc0qslek().f[46]++;
-            cov_1xcc0qslek().s[218]++;
+            cov_1b4cy5bg68().f[46]++;
+            cov_1b4cy5bg68().s[218]++;
             this.$operation = this.$resolveNegableString("to {not?} have only potential keys");
-            cov_1xcc0qslek().s[219]++;
+            cov_1b4cy5bg68().s[219]++;
             this.$objectation = props;
-            const keys = (cov_1xcc0qslek().s[220]++, Object.keys(this.$subject));
-            let hasOnly = (cov_1xcc0qslek().s[221]++, true);
-            cov_1xcc0qslek().s[222]++;
-            cov_1xcc0qslek().s[223]++;
-            Iterating_props: for (let index = (cov_1xcc0qslek().s[224]++, 0); index < keys.length; index++) {
-                const key = (cov_1xcc0qslek().s[225]++, keys[index]);
-                cov_1xcc0qslek().s[226]++;
+            const keys = (cov_1b4cy5bg68().s[220]++, Object.keys(this.$subject));
+            let hasOnly = (cov_1b4cy5bg68().s[221]++, true);
+            cov_1b4cy5bg68().s[222]++;
+            cov_1b4cy5bg68().s[223]++;
+            Iterating_props: for (let index = (cov_1b4cy5bg68().s[224]++, 0); index < keys.length; index++) {
+                const key = (cov_1b4cy5bg68().s[225]++, keys[index]);
+                cov_1b4cy5bg68().s[226]++;
                 if (props.indexOf(key) === -1) {
-                    cov_1xcc0qslek().b[50][0]++;
-                    cov_1xcc0qslek().s[227]++;
+                    cov_1b4cy5bg68().b[50][0]++;
+                    cov_1b4cy5bg68().s[227]++;
                     hasOnly = false;
-                    cov_1xcc0qslek().s[228]++;
+                    cov_1b4cy5bg68().s[228]++;
                     break Iterating_props;
                 } else {
-                    cov_1xcc0qslek().b[50][1]++;
+                    cov_1b4cy5bg68().b[50][1]++;
                 }
             }
-            cov_1xcc0qslek().s[229]++;
+            cov_1b4cy5bg68().s[229]++;
             if (this.$makeNegable(!hasOnly)) {
-                cov_1xcc0qslek().b[51][0]++;
-                cov_1xcc0qslek().s[230]++;
+                cov_1b4cy5bg68().b[51][0]++;
+                cov_1b4cy5bg68().s[230]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[51][1]++;
+                cov_1b4cy5bg68().b[51][1]++;
             }
-            cov_1xcc0qslek().s[231]++;
+            cov_1b4cy5bg68().s[231]++;
             return this.$ensurement.$asResolved();
         }
         keys(props) {
-            cov_1xcc0qslek().f[47]++;
-            cov_1xcc0qslek().s[232]++;
+            cov_1b4cy5bg68().f[47]++;
+            cov_1b4cy5bg68().s[232]++;
             this.$operation = this.$resolveNegableString("to {not?} have keys");
-            cov_1xcc0qslek().s[233]++;
+            cov_1b4cy5bg68().s[233]++;
             this.$objectation = props;
-            const keys = (cov_1xcc0qslek().s[234]++, Object.keys(this.$subject));
-            let hasKeys = (cov_1xcc0qslek().s[235]++, true);
-            cov_1xcc0qslek().s[236]++;
-            cov_1xcc0qslek().s[237]++;
-            Iterating_props: for (let index = (cov_1xcc0qslek().s[238]++, 0); index < props.length; index++) {
-                const prop = (cov_1xcc0qslek().s[239]++, props[index]);
-                cov_1xcc0qslek().s[240]++;
+            const keys = (cov_1b4cy5bg68().s[234]++, Object.keys(this.$subject));
+            let hasKeys = (cov_1b4cy5bg68().s[235]++, true);
+            cov_1b4cy5bg68().s[236]++;
+            cov_1b4cy5bg68().s[237]++;
+            Iterating_props: for (let index = (cov_1b4cy5bg68().s[238]++, 0); index < props.length; index++) {
+                const prop = (cov_1b4cy5bg68().s[239]++, props[index]);
+                cov_1b4cy5bg68().s[240]++;
                 if (keys.indexOf(prop) === -1) {
-                    cov_1xcc0qslek().b[52][0]++;
-                    cov_1xcc0qslek().s[241]++;
+                    cov_1b4cy5bg68().b[52][0]++;
+                    cov_1b4cy5bg68().s[241]++;
                     hasKeys = false;
-                    cov_1xcc0qslek().s[242]++;
+                    cov_1b4cy5bg68().s[242]++;
                     break Iterating_props;
                 } else {
-                    cov_1xcc0qslek().b[52][1]++;
+                    cov_1b4cy5bg68().b[52][1]++;
                 }
             }
-            cov_1xcc0qslek().s[243]++;
+            cov_1b4cy5bg68().s[243]++;
             if (this.$makeNegable(!hasKeys)) {
-                cov_1xcc0qslek().b[53][0]++;
-                cov_1xcc0qslek().s[244]++;
+                cov_1b4cy5bg68().b[53][0]++;
+                cov_1b4cy5bg68().s[244]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[53][1]++;
+                cov_1b4cy5bg68().b[53][1]++;
             }
-            cov_1xcc0qslek().s[245]++;
+            cov_1b4cy5bg68().s[245]++;
             return this.$ensurement.$asResolved();
         }
         values(props) {
-            cov_1xcc0qslek().f[48]++;
-            cov_1xcc0qslek().s[246]++;
+            cov_1b4cy5bg68().f[48]++;
+            cov_1b4cy5bg68().s[246]++;
             this.$operation = this.$resolveNegableString("to {not?} have values");
-            cov_1xcc0qslek().s[247]++;
+            cov_1b4cy5bg68().s[247]++;
             this.$objectation = props;
-            const values = (cov_1xcc0qslek().s[248]++, Object.values(this.$subject));
-            let hasValues = (cov_1xcc0qslek().s[249]++, true);
-            cov_1xcc0qslek().s[250]++;
-            cov_1xcc0qslek().s[251]++;
-            Iterating_props: for (let index = (cov_1xcc0qslek().s[252]++, 0); index < props.length; index++) {
-                const prop = (cov_1xcc0qslek().s[253]++, props[index]);
-                cov_1xcc0qslek().s[254]++;
+            const values = (cov_1b4cy5bg68().s[248]++, Object.values(this.$subject));
+            let hasValues = (cov_1b4cy5bg68().s[249]++, true);
+            cov_1b4cy5bg68().s[250]++;
+            cov_1b4cy5bg68().s[251]++;
+            Iterating_props: for (let index = (cov_1b4cy5bg68().s[252]++, 0); index < props.length; index++) {
+                const prop = (cov_1b4cy5bg68().s[253]++, props[index]);
+                cov_1b4cy5bg68().s[254]++;
                 if (values.indexOf(prop) === -1) {
-                    cov_1xcc0qslek().b[54][0]++;
-                    cov_1xcc0qslek().s[255]++;
+                    cov_1b4cy5bg68().b[54][0]++;
+                    cov_1b4cy5bg68().s[255]++;
                     hasValues = false;
-                    cov_1xcc0qslek().s[256]++;
+                    cov_1b4cy5bg68().s[256]++;
                     break Iterating_props;
                 } else {
-                    cov_1xcc0qslek().b[54][1]++;
+                    cov_1b4cy5bg68().b[54][1]++;
                 }
             }
-            cov_1xcc0qslek().s[257]++;
+            cov_1b4cy5bg68().s[257]++;
             if (this.$makeNegable(!hasValues)) {
-                cov_1xcc0qslek().b[55][0]++;
-                cov_1xcc0qslek().s[258]++;
+                cov_1b4cy5bg68().b[55][0]++;
+                cov_1b4cy5bg68().s[258]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[55][1]++;
+                cov_1b4cy5bg68().b[55][1]++;
             }
-            cov_1xcc0qslek().s[259]++;
+            cov_1b4cy5bg68().s[259]++;
             return this.$ensurement.$asResolved();
         }
         uniquelyKeys(props) {
-            cov_1xcc0qslek().f[49]++;
-            cov_1xcc0qslek().s[260]++;
+            cov_1b4cy5bg68().f[49]++;
+            cov_1b4cy5bg68().s[260]++;
             this.$operation = this.$resolveNegableString("to {not?} have uniquelyKeys");
-            cov_1xcc0qslek().s[261]++;
+            cov_1b4cy5bg68().s[261]++;
             this.$objectation = props;
-            const keys = (cov_1xcc0qslek().s[262]++, Object.keys(this.$subject));
-            let hasKeys = (cov_1xcc0qslek().s[263]++, true);
-            cov_1xcc0qslek().s[264]++;
-            cov_1xcc0qslek().s[265]++;
-            Iterating_props: for (let index = (cov_1xcc0qslek().s[266]++, 0); index < keys.length; index++) {
-                const key = (cov_1xcc0qslek().s[267]++, keys[index]);
-                cov_1xcc0qslek().s[268]++;
+            const keys = (cov_1b4cy5bg68().s[262]++, Object.keys(this.$subject));
+            let hasKeys = (cov_1b4cy5bg68().s[263]++, true);
+            cov_1b4cy5bg68().s[264]++;
+            cov_1b4cy5bg68().s[265]++;
+            Iterating_props: for (let index = (cov_1b4cy5bg68().s[266]++, 0); index < keys.length; index++) {
+                const key = (cov_1b4cy5bg68().s[267]++, keys[index]);
+                cov_1b4cy5bg68().s[268]++;
                 if (props.indexOf(key) === -1) {
-                    cov_1xcc0qslek().b[56][0]++;
-                    cov_1xcc0qslek().s[269]++;
+                    cov_1b4cy5bg68().b[56][0]++;
+                    cov_1b4cy5bg68().s[269]++;
                     hasKeys = false;
-                    cov_1xcc0qslek().s[270]++;
+                    cov_1b4cy5bg68().s[270]++;
                     break Iterating_props;
                 } else {
-                    cov_1xcc0qslek().b[56][1]++;
+                    cov_1b4cy5bg68().b[56][1]++;
                 }
             }
-            cov_1xcc0qslek().s[271]++;
+            cov_1b4cy5bg68().s[271]++;
             if (this.$makeNegable(!hasKeys)) {
-                cov_1xcc0qslek().b[57][0]++;
-                cov_1xcc0qslek().s[272]++;
+                cov_1b4cy5bg68().b[57][0]++;
+                cov_1b4cy5bg68().s[272]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[57][1]++;
+                cov_1b4cy5bg68().b[57][1]++;
             }
-            cov_1xcc0qslek().s[273]++;
+            cov_1b4cy5bg68().s[273]++;
             return this.$ensurement.$asResolved();
         }
         uniquelyValues(props) {
-            cov_1xcc0qslek().f[50]++;
-            cov_1xcc0qslek().s[274]++;
+            cov_1b4cy5bg68().f[50]++;
+            cov_1b4cy5bg68().s[274]++;
             this.$operation = this.$resolveNegableString("to {not?} have uniquelyValues");
-            cov_1xcc0qslek().s[275]++;
+            cov_1b4cy5bg68().s[275]++;
             this.$objectation = props;
-            const values = (cov_1xcc0qslek().s[276]++, Object.values(this.$subject));
-            let hasValues = (cov_1xcc0qslek().s[277]++, true);
-            cov_1xcc0qslek().s[278]++;
-            cov_1xcc0qslek().s[279]++;
-            Iterating_props: for (let index = (cov_1xcc0qslek().s[280]++, 0); index < values.length; index++) {
-                const value = (cov_1xcc0qslek().s[281]++, values[index]);
-                cov_1xcc0qslek().s[282]++;
+            const values = (cov_1b4cy5bg68().s[276]++, Object.values(this.$subject));
+            let hasValues = (cov_1b4cy5bg68().s[277]++, true);
+            cov_1b4cy5bg68().s[278]++;
+            cov_1b4cy5bg68().s[279]++;
+            Iterating_props: for (let index = (cov_1b4cy5bg68().s[280]++, 0); index < values.length; index++) {
+                const value = (cov_1b4cy5bg68().s[281]++, values[index]);
+                cov_1b4cy5bg68().s[282]++;
                 if (props.indexOf(value) === -1) {
-                    cov_1xcc0qslek().b[58][0]++;
-                    cov_1xcc0qslek().s[283]++;
+                    cov_1b4cy5bg68().b[58][0]++;
+                    cov_1b4cy5bg68().s[283]++;
                     hasValues = false;
-                    cov_1xcc0qslek().s[284]++;
+                    cov_1b4cy5bg68().s[284]++;
                     break Iterating_props;
                 } else {
-                    cov_1xcc0qslek().b[58][1]++;
+                    cov_1b4cy5bg68().b[58][1]++;
                 }
             }
-            cov_1xcc0qslek().s[285]++;
+            cov_1b4cy5bg68().s[285]++;
             if (this.$makeNegable(!hasValues)) {
-                cov_1xcc0qslek().b[59][0]++;
-                cov_1xcc0qslek().s[286]++;
+                cov_1b4cy5bg68().b[59][0]++;
+                cov_1b4cy5bg68().s[286]++;
                 return this.$asFailed();
             } else {
-                cov_1xcc0qslek().b[59][1]++;
+                cov_1b4cy5bg68().b[59][1]++;
             }
-            cov_1xcc0qslek().s[287]++;
+            cov_1b4cy5bg68().s[287]++;
             return this.$ensurement.$asResolved();
         }
     };
-    cov_1xcc0qslek().s[288]++;
+    cov_1b4cy5bg68().s[288]++;
     const ToNotHaveInterface = class extends ToHaveInterface {
-        $isNegated = (cov_1xcc0qslek().s[289]++, true);
+        $isNegated = (cov_1b4cy5bg68().s[289]++, true);
     };
-    cov_1xcc0qslek().s[290]++;
+    cov_1b4cy5bg68().s[290]++;
     const EnsurementV1 = class extends Ensurement {
         selfExtend(obj) {
-            cov_1xcc0qslek().f[51]++;
-            cov_1xcc0qslek().s[291]++;
+            cov_1b4cy5bg68().f[51]++;
+            cov_1b4cy5bg68().s[291]++;
             return Object.assign(this, obj);
         }
         get $toNotBe() {
-            cov_1xcc0qslek().f[52]++;
-            cov_1xcc0qslek().s[292]++;
+            cov_1b4cy5bg68().f[52]++;
+            cov_1b4cy5bg68().s[292]++;
             return new ToNotBeInterface(this);
         }
         get $toNotHave() {
-            cov_1xcc0qslek().f[53]++;
-            cov_1xcc0qslek().s[293]++;
+            cov_1b4cy5bg68().f[53]++;
+            cov_1b4cy5bg68().s[293]++;
             return new ToNotHaveInterface(this);
         }
         get $toNot() {
-            cov_1xcc0qslek().f[54]++;
-            cov_1xcc0qslek().s[294]++;
+            cov_1b4cy5bg68().f[54]++;
+            cov_1b4cy5bg68().s[294]++;
             return {
                 be: this.$toNotBe,
                 have: this.$toNotHave
             };
         }
         get $toBe() {
-            cov_1xcc0qslek().f[55]++;
-            cov_1xcc0qslek().s[295]++;
+            cov_1b4cy5bg68().f[55]++;
+            cov_1b4cy5bg68().s[295]++;
             return new ToBeInterface(this);
         }
         get $toHave() {
-            cov_1xcc0qslek().f[56]++;
-            cov_1xcc0qslek().s[296]++;
+            cov_1b4cy5bg68().f[56]++;
+            cov_1b4cy5bg68().s[296]++;
             return new ToHaveInterface(this);
         }
         get to() {
-            cov_1xcc0qslek().f[57]++;
-            cov_1xcc0qslek().s[297]++;
+            cov_1b4cy5bg68().f[57]++;
+            cov_1b4cy5bg68().s[297]++;
             return {
                 be: this.$toBe,
                 have: this.$toHave,
@@ -8716,8 +8716,8 @@ cov_1xcc0qslek().s[0]++;
             };
         }
         its(id) {
-            cov_1xcc0qslek().f[58]++;
-            cov_1xcc0qslek().s[298]++;
+            cov_1b4cy5bg68().f[58]++;
+            cov_1b4cy5bg68().s[298]++;
             return this.constructor.create({
                 [id]: this.$subject[id]
             }, 1).selfExtend({
@@ -8726,121 +8726,121 @@ cov_1xcc0qslek().s[0]++;
             });
         }
         getSubject() {
-            cov_1xcc0qslek().f[59]++;
-            cov_1xcc0qslek().s[299]++;
+            cov_1b4cy5bg68().f[59]++;
+            cov_1b4cy5bg68().s[299]++;
             return this.$subject;
         }
-        safelyBack(levels = (cov_1xcc0qslek().b[60][0]++, 1)) {
-            cov_1xcc0qslek().f[60]++;
-            cov_1xcc0qslek().s[300]++;
-            for (let index = (cov_1xcc0qslek().s[301]++, 0); index < levels; index++) {
-                cov_1xcc0qslek().s[302]++;
+        safelyBack(levels = (cov_1b4cy5bg68().b[60][0]++, 1)) {
+            cov_1b4cy5bg68().f[60]++;
+            cov_1b4cy5bg68().s[300]++;
+            for (let index = (cov_1b4cy5bg68().s[301]++, 0); index < levels; index++) {
+                cov_1b4cy5bg68().s[302]++;
                 try {
-                    cov_1xcc0qslek().s[303]++;
+                    cov_1b4cy5bg68().s[303]++;
                     parent = this.$parent;
                 } catch (error) { // @OK.
                 }
             }
         }
-        back(levels = (cov_1xcc0qslek().b[61][0]++, 1)) {
-            cov_1xcc0qslek().f[61]++;
-            let parent = (cov_1xcc0qslek().s[304]++, this);
-            cov_1xcc0qslek().s[305]++;
-            for (let index = (cov_1xcc0qslek().s[306]++, 0); index < levels; index++) {
-                cov_1xcc0qslek().s[307]++;
+        back(levels = (cov_1b4cy5bg68().b[61][0]++, 1)) {
+            cov_1b4cy5bg68().f[61]++;
+            let parent = (cov_1b4cy5bg68().s[304]++, this);
+            cov_1b4cy5bg68().s[305]++;
+            for (let index = (cov_1b4cy5bg68().s[306]++, 0); index < levels; index++) {
+                cov_1b4cy5bg68().s[307]++;
                 try {
-                    cov_1xcc0qslek().s[308]++;
+                    cov_1b4cy5bg68().s[308]++;
                     parent = this.$parent;
                 } catch (error) {
-                    cov_1xcc0qslek().s[309]++;
+                    cov_1b4cy5bg68().s[309]++;
                     throw new Error(`Ensurement could not go «back» reaching parent on level «${index}» on «ensure(...).back»`);
                 }
             }
-            cov_1xcc0qslek().s[310]++;
+            cov_1b4cy5bg68().s[310]++;
             return parent;
         }
         static $or(options) {
-            cov_1xcc0qslek().f[62]++;
-            let correctOption = (cov_1xcc0qslek().s[311]++, undefined);
-            const allIds = (cov_1xcc0qslek().s[312]++, Object.keys(options));
-            const orError = (cov_1xcc0qslek().s[313]++, new Error(`could not ensure «or» group with options: «${allIds.join("», «")}»`));
-            cov_1xcc0qslek().s[314]++;
-            for (let index = (cov_1xcc0qslek().s[315]++, 0); index < allIds.length; index++) {
-                const currentId = (cov_1xcc0qslek().s[316]++, allIds[index]);
-                const currentOptionCallback = (cov_1xcc0qslek().s[317]++, options[currentId]);
-                cov_1xcc0qslek().s[318]++;
+            cov_1b4cy5bg68().f[62]++;
+            let correctOption = (cov_1b4cy5bg68().s[311]++, undefined);
+            const allIds = (cov_1b4cy5bg68().s[312]++, Object.keys(options));
+            const orError = (cov_1b4cy5bg68().s[313]++, new Error(`could not ensure «or» group with options: «${allIds.join("», «")}»`));
+            cov_1b4cy5bg68().s[314]++;
+            for (let index = (cov_1b4cy5bg68().s[315]++, 0); index < allIds.length; index++) {
+                const currentId = (cov_1b4cy5bg68().s[316]++, allIds[index]);
+                const currentOptionCallback = (cov_1b4cy5bg68().s[317]++, options[currentId]);
+                cov_1b4cy5bg68().s[318]++;
                 try {
-                    cov_1xcc0qslek().s[319]++;
+                    cov_1b4cy5bg68().s[319]++;
                     currentOptionCallback();
-                    cov_1xcc0qslek().s[320]++;
+                    cov_1b4cy5bg68().s[320]++;
                     return currentId;
                 } catch (error) {
-                    cov_1xcc0qslek().s[321]++;
+                    cov_1b4cy5bg68().s[321]++;
                     orError.appendError(error);
                 }
             }
-            cov_1xcc0qslek().s[322]++;
+            cov_1b4cy5bg68().s[322]++;
             throw orError.unified();
         }
         static id(obj) {
-            cov_1xcc0qslek().f[63]++;
-            cov_1xcc0qslek().s[323]++;
+            cov_1b4cy5bg68().f[63]++;
+            cov_1b4cy5bg68().s[323]++;
             return this.create(obj, 1);
         }
         static ensure(...args) {
-            cov_1xcc0qslek().f[64]++;
-            cov_1xcc0qslek().s[324]++;
+            cov_1b4cy5bg68().f[64]++;
+            cov_1b4cy5bg68().s[324]++;
             return this.create(...args);
         }
         static check(...args) {
-            cov_1xcc0qslek().f[65]++;
-            cov_1xcc0qslek().s[325]++;
+            cov_1b4cy5bg68().f[65]++;
+            cov_1b4cy5bg68().s[325]++;
             return this.create(...args).selfExtend({
                 asBoolean: true
             });
         }
-        static assert(condition, errorMessage = (cov_1xcc0qslek().b[62][0]++, "Assertion error happened")) {
-            cov_1xcc0qslek().f[66]++;
-            cov_1xcc0qslek().s[326]++;
+        static assert(condition, errorMessage = (cov_1b4cy5bg68().b[62][0]++, "Assertion error happened")) {
+            cov_1b4cy5bg68().f[66]++;
+            cov_1b4cy5bg68().s[326]++;
             if (!condition) {
-                cov_1xcc0qslek().b[63][0]++;
-                cov_1xcc0qslek().s[327]++;
+                cov_1b4cy5bg68().b[63][0]++;
+                cov_1b4cy5bg68().s[327]++;
                 throw new AssertionError(errorMessage);
             } else {
-                cov_1xcc0qslek().b[63][1]++;
+                cov_1b4cy5bg68().b[63][1]++;
             }
-            cov_1xcc0qslek().s[328]++;
+            cov_1b4cy5bg68().s[328]++;
             return true;
         }
-        static fails(callback, errorMessage = (cov_1xcc0qslek().b[64][0]++, "Assertion error happened")) {
-            cov_1xcc0qslek().f[67]++;
-            let passes = (cov_1xcc0qslek().s[329]++, true);
-            cov_1xcc0qslek().s[330]++;
+        static fails(callback, errorMessage = (cov_1b4cy5bg68().b[64][0]++, "Assertion error happened")) {
+            cov_1b4cy5bg68().f[67]++;
+            let passes = (cov_1b4cy5bg68().s[329]++, true);
+            cov_1b4cy5bg68().s[330]++;
             try {
-                cov_1xcc0qslek().s[331]++;
+                cov_1b4cy5bg68().s[331]++;
                 callback();
-                cov_1xcc0qslek().s[332]++;
+                cov_1b4cy5bg68().s[332]++;
                 passes = false;
             } catch (error) {
-                cov_1xcc0qslek().s[333]++;
+                cov_1b4cy5bg68().s[333]++;
                 return true;
             }
-            cov_1xcc0qslek().s[334]++;
+            cov_1b4cy5bg68().s[334]++;
             if (!passes) {
-                cov_1xcc0qslek().b[65][0]++;
-                cov_1xcc0qslek().s[335]++;
+                cov_1b4cy5bg68().b[65][0]++;
+                cov_1b4cy5bg68().s[335]++;
                 throw new AssertionError(errorMessage);
             } else {
-                cov_1xcc0qslek().b[65][1]++;
+                cov_1b4cy5bg68().b[65][1]++;
             }
         }
-        static AssertionError = (cov_1xcc0qslek().s[336]++, AssertionError);
+        static AssertionError = (cov_1b4cy5bg68().s[336]++, AssertionError);
     };
-    cov_1xcc0qslek().s[337]++;
+    cov_1b4cy5bg68().s[337]++;
     Export_to_globals: {
-        cov_1xcc0qslek().s[338]++;globalThis.$fails = EnsurementV1.fails.bind(EnsurementV1);cov_1xcc0qslek().s[339]++;globalThis.$ensure = EnsurementV1.ensure.bind(EnsurementV1);cov_1xcc0qslek().s[340]++;globalThis.$ensure.id = EnsurementV1.id.bind(EnsurementV1);cov_1xcc0qslek().s[341]++;globalThis.$ensure.check = EnsurementV1.check.bind(EnsurementV1);cov_1xcc0qslek().s[342]++;globalThis.$ensure.assert = EnsurementV1.assert.bind(EnsurementV1);cov_1xcc0qslek().s[343]++;globalThis.$ensure.fails = EnsurementV1.fails.bind(EnsurementV1);cov_1xcc0qslek().s[344]++;globalThis.$check = EnsurementV1.check.bind(EnsurementV1);cov_1xcc0qslek().s[345]++;globalThis.$assert = EnsurementV1.assert.bind(EnsurementV1); // globalThis.AssertionError = AssertionError;
-        cov_1xcc0qslek().s[346]++;globalThis.$ensure.$or = EnsurementV1.$or;
+        cov_1b4cy5bg68().s[338]++;globalThis.$fails = EnsurementV1.fails.bind(EnsurementV1);cov_1b4cy5bg68().s[339]++;globalThis.$ensure = EnsurementV1.ensure.bind(EnsurementV1);cov_1b4cy5bg68().s[340]++;globalThis.$ensure.id = EnsurementV1.id.bind(EnsurementV1);cov_1b4cy5bg68().s[341]++;globalThis.$ensure.check = EnsurementV1.check.bind(EnsurementV1);cov_1b4cy5bg68().s[342]++;globalThis.$ensure.assert = EnsurementV1.assert.bind(EnsurementV1);cov_1b4cy5bg68().s[343]++;globalThis.$ensure.fails = EnsurementV1.fails.bind(EnsurementV1);cov_1b4cy5bg68().s[344]++;globalThis.$check = EnsurementV1.check.bind(EnsurementV1);cov_1b4cy5bg68().s[345]++;globalThis.$assert = EnsurementV1.assert.bind(EnsurementV1); // globalThis.AssertionError = AssertionError;
+        cov_1b4cy5bg68().s[346]++;globalThis.$ensure.$or = EnsurementV1.$or;
     }
-    cov_1xcc0qslek().s[347]++;
+    cov_1b4cy5bg68().s[347]++;
     return EnsurementV1; // @code.end: LswEnsurer class
 });
